@@ -15,6 +15,7 @@ public class ProductoMapper {
                 .precio(dto.getPrecio())
                 .stock(dto.getStock())
                 .categoria(categoria)
+                .estaEliminado(false)
                 .build();
     }
 
